@@ -30,6 +30,7 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/virtual.css">
 
   <link rel="stylesheet" type="text/css" href="../assets/css/topbar.virtual.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 
@@ -60,9 +61,9 @@
             <li class="nav-item">
               <a href="#portfolio" class="nav-link" data-animate="scrolling">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="#blog" class="nav-link" data-animate="scrolling">Blog</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a href="#contact" class="nav-link" data-animate="scrolling">Contact</a>
             </li>
@@ -104,7 +105,10 @@
             <li><b>Age:</b> 26</li>
             <li><b>Gender:</b> Female</li>
           </ul>
-          <button class="btn btn-theme-outline">Download CV</button>
+          <!-- <button class="btn btn-theme-outline">Download CV</button> -->
+          <form method="get" action="D:/Users/Admin/Downloads/Priyanka_chaudhari.pdf">
+            <button class="btn btn-theme-outline" type="submit">Download</button>
+          </form>
         </div>
       </div>
     </div>
@@ -210,7 +214,7 @@
                 <p>Envision Computer Training Institute,Pune.</p>
               </div>
             </li>
-            
+
           </ul>
         </div>
       </div>
@@ -264,22 +268,25 @@
 
       <div class="gridder my-3">
         <div class="grid-item apps wow zoomIn">
-          <div class="img-place" data-src="../assets/img/work/work-1.jpg" data-fancybox
-            data-caption="<h5 class='fg-theme'>Mobile Travel App</h5> <p>Travel, Discovery</p>">
-            <img src="../assets/img/work/work-1.jpg" alt="">
+          <div class="img-place" data-src="../assets/Hotel.png" data-fancybox
+            data-caption="<h5 class='fg-theme'>Luxury Hotel Booking App</h5> <p>Book Luxury Hotel Rooms</p>">
+            <img src="../assets/Hotel.png" alt="">
             <div class="img-caption">
-              <h5 class="fg-theme">Mobile Travel App</h5>
-              <p>Travel, Discovery</p>
+              <h5 class="fg-theme">Luxury Hotel Booking </h5>
+              <input type=button onClick="parent.open('D:/Users/Admin/Downloads/priyanka uiux/LuxuryHotel/index.html')"
+                value='View' class="projbutton">
             </div>
           </div>
         </div>
         <div class="grid-item template wireframes wow zoomIn">
-          <div class="img-place" data-src="../assets/img/work/work-2.jpg" data-fancybox
-            data-caption="<h5 class='fg-theme'>Music App</h5> <p>Musics</p>">
-            <img src="../assets/img/work/work-2.jpg" alt="">
+          <div class="img-place" data-src="../assets/school.png" data-fancybox
+            data-caption="<h5 class='fg-theme'>School App</h5> <p>Academics</p>">
+            <img src="../assets/school.png" alt="">
             <div class="img-caption">
-              <h5 class="fg-theme">Music App</h5>
-              <p>Musics</p>
+              <h5 class="fg-theme">School App</h5>
+              <input type=button
+                onClick="parent.open('D:/Users/Admin/Downloads/priyanka uiux/school_updated/index.html')" value='View'
+                class="projbutton">
             </div>
           </div>
         </div>
@@ -346,7 +353,7 @@
   <!-- End Contact -->
 
   <!-- Footer -->
-  <div class="vg-footer">
+  <div class="vg-footer" id="contact">
     <h1 class="text-center">Priyanka Portfolio</h1>
     <div class="container">
       <div class="row">
@@ -354,7 +361,7 @@
           <div class="footer-info">
             <p>Where to find me</p>
             <hr class="divider">
-            <p class="fs-large fg-white">Pune MH , India</p>
+            <p class="fs-large fg-white">411048 Pune MH , India</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 py-3">
@@ -362,10 +369,10 @@
             <p>Follow me</p>
             <hr class="divider">
             <ul class="list-unstyled">
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Youtube</a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=9970983739" target="_blank"><i class="fa fa-whatsapp fa-5x" style="font-size: 19px; color: green;"></i> WhatsApp</a></li>
+              <li><a href="https://www.linkedin.com/in/priyanka-chaudhari-a83535282/" target="_blank"><i class="fa fa-linkedin" style="font-size: 19px; color: blue;"></i> Linkedin</a></li>
+              
+             
             </ul>
           </div>
         </div>
@@ -374,8 +381,8 @@
             <p>Contact me</p>
             <hr class="divider">
             <ul class="list-unstyled">
-
-              <li>+919970983739</li>
+              <li><a href="mailto:chaudharipriyanka1997@gmail.com"><i class="fa fa-envelope" aria-hidden="true" style="color: tomato; font-size: 19px;"></i> Mail</a></li>
+              <li><i class="fa fa-phone" aria-hidden="true" style=" color: darkmagenta"></i> +91 9970983739</li>
 
             </ul>
           </div>
