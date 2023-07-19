@@ -1,0 +1,357 @@
+.mr-3 {
+  margin-right: 1rem;
+  color: #51be78;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.regbutton {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  color: #fff;
+  background-color: #51be78;
+  border-color: #51be78;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.site-logo {
+  position: relative;
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+.d-block {
+  display: block;
+}
+
+.carousel_section {
+  background: #222;
+}
+
+.section-title-underline span {
+  border-bottom: 4px solid #51be78;
+  font-weight: 400;
+}
+
+.feature-1 border {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.px-4 {
+  padding-left: 1.5rem;
+  padding: right 1.5em;
+  ;
+}
+
+.socialicons {
+  background-color: #51be78;
+  width: 14%;
+  height: 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.socialicons a {
+  color: white;
+  font-size: 1.4rem;
+}
+
+.sociallogos {
+  width: 20%;
+  justify-content: center;
+}
+
+.intro-section {
+  position: relative;
+}
+
+.intro-section:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #222;
+  opacity: .7;
+  border-bottom-right-radius: 0px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-caption {
+  bottom: 25.25rem;
+}
+
+
+
+.flaticon-mortarboard::before {
+  content: "";
+  font-family: Flaticon;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+
+.footer_acadamics {
+  background: #183661;
+  color: white;
+}
+
+.footer_subscribe {
+  background-size: cover;
+  height: 16rem;
+  background-position: center center;
+  position: relative;
+}
+
+.footer_subscribe:before {
+  position: absolute;
+  content: "";
+  background: #183661;
+  opacity: 0.7;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.footer_subscribe .container {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0 !important;
+}
+
+.text-green {
+  color: #51be78;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.font400 {
+  font-weight: 400;
+}
+
+.ft-heading {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.admission-updates {
+  font-size: 14px;
+  font-weight: 500;
+  color: #939393;
+}
+
+.section-bg.style-1 p {
+  color: #7697c6;
+
+
+}
+
+.section-bg.style-1 {
+  position: relative;
+}
+
+/* .section-bg.style-1{} */
+
+.section-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem 0;
+  background-color: #183661;
+  color: white;
+  opacity: .9;
+  z-index: 0;
+}
+
+.ftco-testimonial-1 .ftco-testimonial-vcard img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.border {
+  border: 1px solid #dee2e6 !important;
+}
+
+.feature-1 .feature-1-content {
+  text-align: center;
+  line-height: 1.6;
+  color: gray;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.feature-1 .feature-1-content h2 {
+  font-size: 1.7rem;
+  color: #000;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-1 .feature-1-content h2 p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+}
+
+.feature-1 .feature-1-content .btn-primary {
+  color: #fff;
+  background-color: #51be78;
+  border-color: #51be78;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Changes By s */
+.section-bg1 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 7.5rem;
+}
+
+.section-bg1.style-1 {
+  position: relative;
+}
+
+.section-bg1 .container {
+  position: relative;
+}
+
+.section-bg1.style-1 h3 {
+  font-size: 20px;
+  color: #51be78;
+  margin-bottom: 30px;
+
+}
+
+.section-bg1.style-1 p {
+  color: #7697c6;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.section-bg1.style-1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #183661;
+  opacity: 0.9;
+  z-index: 0;
+}
+
+.col-lg-8 .lead {
+  font-size: 1.55rem;
+  font-weight: 300;
+}
+
+.col-lg-8 p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+
+/* New added for populer courses */
+.course1-item figure {
+  position: relative
+}
+
+figure {
+  margin: 0 0px 1rem;
+}
+
+.card-body1 {
+  background-color: #51be78;
+  color: white;
+  height: 4rem;
+}
+
+.card-body2 {
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.card-title {
+  margin-left: 0.9rem;
+  font-size: 1.5rem;
+  margin-top: 0.9rem;
+}
+
+.textstars {
+  color: #f89d13 !important;
+  margin-top: 1.2rem;
+}
+
+.card-body3 {
+  text-align: center;
+  font-size: 15px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  color: gray;
+}
+
+.card-body4 {
+  text-align: center;
+  margin-left: 6.5rem;
+  margin-right: 6.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.0rem;
+  background-color: #51be78;
+  color: white;
+}
+
+.card-body4 p {
+  margin-top: 2px;
+  margin-bottom: 6px;
+
+}
