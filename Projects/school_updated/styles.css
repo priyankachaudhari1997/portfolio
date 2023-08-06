@@ -355,3 +355,6 @@ figure {
   margin-bottom: 6px;
 
 }
+body {
+  overflow-x: hidden;
+}
